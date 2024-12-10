@@ -2,8 +2,7 @@ import os
 import requests
 import streamlit as st
 
-CHATBOT_URL = os.getenv(
-    "CHATBOT_URL", "https://solid-foxes-invent.loca.lt/hospital-rag-agent")
+CHATBOT_URL = os.getenv("CHATBOT_URL", "https://solid-foxes-invent.loca.lt/hospital-rag-agent")
 
 with st.sidebar:
     st.header("About")
